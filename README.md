@@ -241,10 +241,14 @@ To find more running processes we can use systemctl
 
 Boom we found it 
 
-```ubuntu.service loaded active running TRYHACK3M ```
+```
+ubuntu.service loaded active running TRYHACK3M
+
+```
 
 
-```Shell> systemctl cat ubuntu.service
+```
+Shell> systemctl cat ubuntu.service
 # /etc/systemd/system/ubuntu.service
 [Unit]
 Description=TRYHACK3M
@@ -259,7 +263,8 @@ WantedBy=multi-user.target
 
 Shell> 
 Error: shell_exec(): Argument #1 ($command) cannot be empty
-Shell>```
+Shell>
+```
 
 
 nice
@@ -306,13 +311,17 @@ ok so now we got 'YmMxcXlrNzlmY3A5aGQ1a3JlcHJjZTg5dGtoNHdydGw4YXZ0NGw2N3FhYmMxcX
 
 Ok turns out we had to do base64 twice and it gives us this
 
-```bc1qyk79fcp9hd5kreprce89tkh4wrtl8avt4l67qabc1qyk79fcp9had5kreprce89tkh4wrtl8avt4l67qa```
+```
+bc1qyk79fcp9hd5kreprce89tkh4wrtl8avt4l67qabc1qyk79fcp9had5kreprce89tkh4wrtl8avt4l67qa
+```
 
 
 which is two wallets
 
-```bc1qyk79fcp9hd5kreprce89tkh4wrtl8avt4l67qa
-bc1qyk79fcp9had5kreprce89tkh4wrtl8avt4l67qa```
+```
+bc1qyk79fcp9hd5kreprce89tkh4wrtl8avt4l67qa
+bc1qyk79fcp9had5kreprce89tkh4wrtl8avt4l67qa
+```
 
 
 
