@@ -241,7 +241,8 @@ To find more running processes we can use systemctl
 
 Boom we found it 
 
-```  ubuntu.service                                 loaded active running TRYHACK3M   ```
+```ubuntu.service loaded active running TRYHACK3M ```
+
 
 ```Shell> systemctl cat ubuntu.service
 # /etc/systemd/system/ubuntu.service
@@ -258,20 +259,20 @@ WantedBy=multi-user.target
 
 Shell> 
 Error: shell_exec(): Argument #1 ($command) cannot be empty
-Shell> ```
+Shell>```
 
 
 nice
 
 
-```What is the name of the suspicious process?
+What is the name of the suspicious process?
 
 nm-inet-dialog
 
 
 What is the service name affiliated with the suspicious process?
 
-ubuntu.service```
+ubuntu.service
 
 
 Now we have ### What is the log file name of the miner instance?
