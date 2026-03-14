@@ -2,8 +2,7 @@
 Try Hack Me Write Up 
 
 
-Hack the 
-tags:na so far 
+tags: metasploit revshell bitcoin systemctl wordpress
 
 # nmap
 
